@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace ProgrammingTechnologyLab2
 {
     public class SequentialBubbleSort
-    {
+    { 
         public void BubbleSort(int[] array)
         {
             int length = array.Length;
