@@ -6,17 +6,17 @@ using System.Threading.Tasks;
 
 namespace ProgrammingTechnologyLab2
 {
-    public class SequentialBubbleSort
+    public class SequentialBubbleSort // сортировка пузырьком
     { 
         public void BubbleSort(int[] array)
         {
-            int length = array.Length;
+            int length = array.Length;  
             int temp;
 
             for (int i = 0; i < length - 1; i++) 
             {
                 for (int j = 0; j < length - i - 1; j++) 
-                {
+                { 
                     if (array[j] > array[j + 1])
                     {
                         temp = array[j];
@@ -26,5 +26,7 @@ namespace ProgrammingTechnologyLab2
                 }
             }
         }
+
+
     }
 }

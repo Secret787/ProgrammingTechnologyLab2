@@ -6,9 +6,10 @@ using System.Threading.Tasks;
 
 namespace ProgrammingTechnologyLab2
 {
-    internal class BugParallelBubbleSort
+    public class BugParallelBubbleSort
     {
-        public void ParallelBubbleSort(int[] array)
+        // ошибка в реализации
+        public void ParallelBubbleSortAlfa(int[] array)
         {
             int n = array.Length;
             Parallel.For(0, n - 1, i =>
